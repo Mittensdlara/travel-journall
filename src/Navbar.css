@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+
+.main-title {
+   margin-left: 12px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 18px;
+   letter-spacing: -0.075em;
+}

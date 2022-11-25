@@ -1,0 +1,119 @@
+ .location-img {
+    width: 230px;
+    border-radius: 5px;
+    margin-left: 70px;
+    padding-left: 70px;
+    height: 270px;
+}
+
+.card {
+    margin: 30px;
+  display: flex;
+ align-items: center;
+ text-align: left;
+justify-content: space-evenly;
+border: 1px solid #e4e3e3;
+border-radius: 20px;
+box-shadow: 1px 1px 1px #aca2a2;
+background-color: #FCF2F5;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.map {
+    font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+margin-left: 3rem;
+
+}
+
+.location {
+
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+}
+.loc-icon {
+    margin-right: 5px;
+}
+.card--top {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 650px;
+
+}
+
+.card--bottom {
+width: 350px;
+display: flex;
+flex-direction: column;
+padding-right: 500px;
+
+
+
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+
+}
+
+.date {
+    font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 12px;
+}
+
+.title {
+
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+margin-top: 1px;
+}
+
+
+@media (max-width: 768px) {
+
+    .location-img {
+        visibility: hidden;
+    }
+    .card {
+        display: flex;
+        text-align: center;
+    }
+    .card--top {
+
+        display: flex;
+   
+    }
+    .map {
+        font-size: 7px;
+    }
+
+
+  }
+
+
+
+
+
+
